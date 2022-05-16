@@ -7,8 +7,8 @@ $("a").each(function () {
 
 $("body").scrollspy({ target: "#nav-links" });
 
-// Let header fill the whole window
-$("header").css("height", $(window).height());
+// // Let header fill the whole window
+// $("header").css("height", $(window).height());
 
 // add title attribute if name or title overflows
 $("#people")
