@@ -53,20 +53,30 @@
         <div class="content">
             <h2>Description</h2>
             <p>
-                Zero-shot Learning (ZSL), which enables machine learning models to predict new targets without seeing their training samples,
-                has attracted wide research interests in many communities such as computer vision (CV) and natural language processing (NLP).
+                Zero-shot Learning (ZSL), which enables machine learning models to predict new targets without
+                seeing their training samples, has attracted wide research interests in many communities
+                such as computer vision (CV) and natural language processing (NLP).
                 An effective solution is to use external knowledge such as text, attribute descriptions and
-                Knowledge Graphs (KGs) to bridge the gap between the targets with training samples and the targets without training samples.
-                This tutorial aims to introduce ZSL from the perspective of knowledge especially KG.
-                We will first present the background of KG and ZSL, then introduce the overall picture of KG-aware ZSL and some representative paradigms with case studies,
-                and finally provide a hands-on session on benchmarks and codes. This tutorial is of the intermediate level.
+                Knowledge Graphs (KGs) to bridge the gap between the targets with training samples and
+                the targets without training samples. This tutorial aims to introduce ZSL
+                from the perspective of KG, by presenting different kinds of paradigms, studies and
+                resources for addressing ZSL in different tasks including image classification,
+                visual question answering and KG completion.
+                This tutorial is a new edit of <a href="https://china-uk-zsl.github.io/kg-zsl-tutorial-iswc-2022/">the K-ZSL tutorial in ISWC'22</a>,
+                with many new contents such as the recent transformer-based methods.
             </p>
         </div>
     </section>
     <section id="outcome">
         <div class="content">
-            <h2>Learning outcome</h2>
-            <p>Through this tutorial, we expect the attendees to have an overall picture of ZSL, learn different paradigms and typical methods of KG-based ZSL, and master the skills of evaluating KG-based ZSL methods with some typical benchmarks on image classification and inductive KG completion.</p>
+            <h2>Audience</h2>
+            <p>
+                This tutorial is suitable for AI researchers of all levels,
+                especially those (1) who are to enter the domain of machine learning with sample shortage,
+                (2) who have already been working on this topic but are interested in solutions utilizing knowledge representation and reasoning,
+                and (3) who are working on Knowledge Graph, semantic techniques and their applications.
+                The audiences are expected to have some basic knowledge on machine learning, and some simple background on semantic techniques including Resource Description Framework (RDF) and RDF Schema.
+            </p>
         </div>
     </section>
     <section id="schedule" class="container">
@@ -278,14 +288,14 @@
                 </li>
 
                 <li>
-                    <a style="background-image:url('./img/portraits/wen_zhang.jpeg')" href=""></a>
+                    <a style="background-image:url('./img/portraits/wen_zhang.jpeg')" href="https://person.zju.edu.cn/en/wenzhang"></a>
                     <div class="description">
                         <div class="name">Wen Zhang</div>
                         <!-- <div class="title">USC/ISI</div> -->
                     </div>
                 </li>
                 <li>
-                    <a style="background-image:url('./img/protraits/jeff_pan.jpeg')" href=""></a>
+                    <a style="background-image:url('./img/protraits/jeff_pan.jpeg')" href="http://knowledge-representation.org/j.z.pan/"></a>
                     <div class="description">
                         <div class="name">Jeff Z. Pan</div>
                         <!-- <div class="title">USC/ISI</div> -->
@@ -293,20 +303,24 @@
                 </li>
             </ul>
             <p>
-                <a href="https://genggengcss.github.io/"><strong>Yuxia Geng</strong></a> is a PhD student in the Knowledge Engine Group at Zhejiang University, advised by Prof. Huajun Chen. Her research interests include inductive KG completion, KG-aware ZSL and Neuro-symbolic Integration. She has been contributing to Knowledge-driven ZSL, with a few papers published in WWW, ISWC, ACL, Semantic Web Journal and IJCAI as a main author.
+                <a href="https://genggengcss.github.io/"><strong>Yuxia Geng</strong></a>
+                is a final year PhD student in the College of Computer Science and Technology at Zhejiang University, advised by Prof. Huajun Chen. Her research interests include Knowledge Graph, Ontology, Zero-shot and Few-shot Learning, XAI, and Neuro-symbolic Integration. In the past 5 years, she has been contributing to Knowledge-driven Zero-shot Learning, inductive KG representation and reasoning, and Explainable ZSL, with over 10 papers published in leading CS conferences and journals, including Journal of Web Semantics, Semantic Web Journal, ICDE, KDD, WWW, ACL, IJCAI, ISWC and KR, as a main author. She has good presentation skills, with tutorial experience as a main organizer of the K-ZSL tutorial held in ISWC’22 [11], and invited talk experience as e.g., an invited speaker at Chongqing University, China in 2020. E-mail: gengyx@zju.edu.cn. Website: https://genggengcss.github.io/.
             </p>
             <p>
-                <a href="https://"><strong>Zhuo Chen</strong></a> is a ...
+                <a href="https://"><strong>Zhuo Chen</strong></a>
+                is a Ph.D. candidate in the College of Computer Science and Technology at Zhejiang University. He has been advised by Prof. Huajun Chen since 2020. His research interests include Knowledge Graph, Multi-modal Learning, and Low-Resource Learning. He has more than 3 years' research experience in Knowledge-driven Zero-shot and Multi-modal learning, and has published several papers as a main author in various academic conferences and journals, including ICDE, AAAI, ISWC, IJCAI, WWW, Nature Communications and Nature Machine Intelligence. And as the first author, he received the Best Application Paper Award at IJCKG conference (2022). E-mail: zhuo.chen@zju.edu.cn. Website: https://github.com/hackerchenzhuo.
             </p>
             <p>
-                <a href="https://www.cs.ox.ac.uk/isg/people/jiaoyan.chen/"><strong>Jiaoyan Chen</strong></a> is a Senior Researcher at Department of Computer Science, University of Oxford, working in the Knowledge Representation and Reasoning Group.
-                In past ten years, he has been working on KG construction and curation technologies, knowledge-aware machine learning (including KG-based low-resource learning, inductive KG completion, concept drift in ontology stream learning, knowledge-augmented explanation), as well as the applications of these semantic and machine learning technologies.
+                <a href="https://www.cs.ox.ac.uk/isg/people/jiaoyan.chen/"><strong>Jiaoyan Chen</strong></a>
+                is a Lecturer (Assistant Professor) in Department of Computer Science, The University of Manchester. Before he joined The University of Manchester in November 2022, he was a Senior Researcher in Department of Computer Science, University of Oxford, and got his PhD in Computer Science in Zhejiang University in 2016. He has over 10 years research experience on Knowledge Graph and Machine Learning, and over 6 years experience on knowledge-aware zero-shot learning with over 10 publications on this topic in leading conferences and journals such as IJCAI, AAAI, WWW, KDD, ICDE, ACL, KR, ISWC and Journal of Web Semantics. He is one of the main organizers of the K-ZSL tutorial in ISWC’22 [11] and an Editor of the Journal of Web Semantics, and has much presentation experience for a number of (invited) tasks, as well as teaching experience for university courses of AI, the Web, and Knowledge Representation and Reasoning. E-mail: jiaoyan.chen@manchester. Website: https://chenjiaoyan.github.io/.
             </p>
             <p>
-                <strong>Wen Zhang</strong>
+                <a href="https://person.zju.edu.cn/en/wenzhang"><strong>Wen Zhang</strong></a>
+                is an Assistant Professor in School of Software Technology, Zhejiang University. Wen got her PhD in Computer Science and Technology in Zhejiang University in 2020. Her research interests include Knowledge Graph and Knowledge Reasoning. In recent 3 years, she widely explored how to make knowledge graph reasoning methods transferable which is closely related to zero-shot learning and has 5 publications on this topic in the leading conferences and journals such as IJCAI, AAAI, WWW, ICDE and Knowledge-Based Systems. She has much presentation experience related to knowledge graphs in conferences and universities. She also has teaching experience for university courses about Graph Representation Learning, Knowledge Representation and Reasoning, and  Knowledge Graph.  Email: zhang.wen@zju.edu.cn. Website: https://person.zju.edu.cn/en/wenzhang.
             </p>
             <p>
-                <a href="https://pern"><strong>Jeff Z. Pan</strong></a>
+                <a href="http://knowledge-representation.org/j.z.pan/"><strong>Jeff Z. Pan</strong></a>
+                is a chair of the Knowledge Graph Group at the Alan Turing Institute and is a member of the School of Informatics at The University of Edinburgh. He received his Ph.D. in Computer Science from The University of Manchester in 2004. His research focuses primarily on knowledge representation and artificial intelligence, in particular on knowledge based learning and reasoning, and knowledge based natural language understanding and generations, as well as their applications, such as those in information retrieval, healthcare, software engineering, and open science. He is the first author of the first book on Knowledge Graph and the Chief Scientist and Coordinator of the first EU Marie-Curie project on Knowledge Graph (i.e., the K-Drive project). He has 7 publications on this topic in leading conferences and journals, such as IJCAI, AAAI, WWW, KDD, KR, ISWC and the Journal of Web Semantics. He is an Editor of the Journal of Web Semantics (JoWS) and a Program Chair of the 19th International Semantic Web Conference (ISWC 2020), the premier international forum for the Semantic Web / Knowledge Graph / Linked Data communities. Email: j.z.pan@ed.ac.uk. Website: http://knowledge-representation.org/j.z.pan/.
             </p>
         </div>
     </section>
@@ -314,27 +328,26 @@
     <section id="reference" class="container">
         <div class="content">
             <h2>Reference</h2>
-                1. Chen, J., Geng, Y., Chen, Z., Horrocks, I., Pan, J.Z., et al.: Knowledge-aware zero-shot learning: Survey and perspective. In: IJCAI (2021)
-                <br>
-                2. Geng, Y., Chen, J., Zhuang, X., Chen, Z., Pan, J. Z., Li, J., Yuan, Z., & Chen, H. Benchmarking Knowledge-driven Zero-shot Learning. Journal of Web Semantics. (2022).
-                <br>
-                3. Geng,Y.,Chen,J.,Chen,Z.,Pan,J.Z.,Ye,Z.,Yuan,Z.,Jia,Y.,Chen,H.:OntoZSL: Ontology-enhanced zero-shot learning. In: WWW. pp. 3325-3336 (2021)
-                <br>
-                4. Wang, X., Ye, Y., Gupta, A.: Zero-shot recognition via semantic embeddings and knowledge graphs. In: CVPR. pp. 6857-6866 (2018)
-                <br>
-                5. Li, J., Wang, R., Zhang, N., Chen, H., et al.: Logic-guided semantic representation learning for zero-shot relation classification. In: COLING. pp. 2967-2978 (2020)
-                <br>
-                6. Geng, Y., Chen, J., Ye, Z., Zhang, W., Chen, H.: Explainable zero-shot learning via attentive graph convolutional network and knowledge graphs. Semantic Web (2021)
-                <br>
-                7. Chen, Z., Chen, J., Geng, Y., Pan, J. Z., Yuan, Z., & Chen, H. Zero-shot visual question answering using knowledge graph. In International Semantic Web Conference (pp. 146-162). (2021).
-                <br>
-                8. Geng, Y., Chen, J., Zhang W., Xu Y., Chen Z., Pan, J. Z., Huang, Y., Xiong F. & Chen, H. Disentangled Ontology Embedding for Zero-shot Learning. In: ACM SIGKDD. (2022).
-                <br>
-                9. Chen, J., Geng, Y., Chen, Z., Pan, J. Z., He, Y., Zhang, W., ... & Chen, H. Low-resource Learning with Knowledge Graphs: A Comprehensive Survey. arXiv preprint arXiv:2112.10006. (2021).
-                <br>
-                10. Geng, Y., Chen, J., Zhang, W., Pan, J. Z., Yang, M., Chen, H. & Jiang, S. Relational Message Passing for Fully Inductive Knowledge Graph Completion. arXiv preprint arXiv:2210.03994. (2022).
-                <br>
-		<br><br>
+            [1]. Chen, J., Geng, Y., Chen, Z., Horrocks, I., Pan, J.Z., et al.: Knowledge-aware zero-shot learning: Survey and perspective. In: IJCAI (2021)
+            <br>
+[2]. Chen, J., Geng, Y., Chen, Z., Pan, J. Z., He, Y., Zhang, W., ... & Chen, H. Zero-shot and Few-shot Learning with Knowledge Graphs: A Comprehensive Survey. Proceedings of the IEEE. (to appear)
+            <br>
+[3]. Geng, Y., Chen, J., Zhuang, X., Chen, Z., Pan, J. Z., Li, J., Yuan, Z., & Chen, H. Benchmarking Knowledge-driven Zero-shot Learning. Journal of Web Semantics. (2022).
+            <br>
+[4]. Geng,Y.,Chen,J.,Chen,Z.,Pan,J.Z.,Ye,Z.,Yuan,Z.,Jia,Y.,Chen,H.:OntoZSL: Ontology-enhanced zero-shot learning. In: WWW. pp. 3325-3336 (2021)
+            <br>
+[5] Geng, Y., Chen, J., Ye, Z., Zhang, W., Chen, H.: Explainable zero-shot learning via attentive graph convolutional network and knowledge graphs. Semantic Web (2021)
+            <br>
+[6]. Chen, Z., Chen, J., Geng, Y., Pan, J. Z., Yuan, Z., & Chen, H. Zero-shot visual question answering using knowledge graph. In International Semantic Web Conference (pp. 146-162). (2021).
+            <br>
+[7]. Geng, Y., Chen, J., Zhang W., Xu Y., Chen Z., Pan, J. Z., Huang, Y., Xiong F. & Chen, H. Disentangled Ontology Embedding for Zero-shot Learning. In: ACM SIGKDD. (2022).
+            <br>
+[8] Geng, Y., Chen, J., Zhang, W., Pan, J. Z., Yang, M., Chen, H. & Jiang, S. Relational Message Passing for Fully Inductive Knowledge Graph Completion.In: ICDE. (2023).
+            <br>
+[9] Chen, Z., Huang, Y., Chen, J., Geng, Y., Zhang, W., Fang, Y., ... & Chen, H. DUET: Cross-modal Semantic Grounding for Contrastive Zero-shot Learning. In: AAAI. (2023).
+            <br>
+[10] Zhang, W., Zhu, Y., Chen, M., Geng, Y., Huang, Y., Xu, Y., Song, W. and Chen, H., 2023. Structure Pretraining and Prompt Tuning for Knowledge Graph Transfer. In: WWW. (2023).
+		<br>
         </div>
     </section>
 
