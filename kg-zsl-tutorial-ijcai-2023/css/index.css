@@ -116,9 +116,9 @@ html, body {
   }
 
   #people ul.content {
-    max-width: 800px;
+    max-width: 1000px;
   }
-  @media (max-width: 600px) {
+  @media (max-width: 800px) {
     #people ul.content {
       text-align: center;
     }
