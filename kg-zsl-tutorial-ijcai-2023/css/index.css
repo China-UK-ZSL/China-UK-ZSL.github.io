@@ -90,7 +90,7 @@ html, body {
   }
   section .content {
     margin: auto;
-    max-width: 700px;
+    max-width: 900px;
   }
 
   #video {
@@ -118,7 +118,7 @@ html, body {
   #people ul.content {
     max-width: 1000px;
   }
-  @media (max-width: 800px) {
+  @media (max-width: 900px) {
     #people ul.content {
       text-align: center;
     }
